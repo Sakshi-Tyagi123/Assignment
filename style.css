@@ -1,0 +1,503 @@
+
+
+/* Base styles (for screen sizes greater than 1091px) */
+body {
+  margin: 0;
+  font-family: GothamProRegular, sans-serif;
+  font-size: 90%;
+}
+
+.container {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ccc;
+}
+
+.header {
+  width: 100%;
+}
+
+.head-top {
+  display: flex;
+  padding: 8px 10px;
+}
+
+.top {
+  display: flex;
+  padding: 15px;
+}
+
+.items ul {
+  display: flex;  
+  gap: 10px;
+}
+
+.items ul li {
+  list-style: none;
+  color: #7a8ea5;
+}
+
+.items ul li:first-child {
+  color: #2b8aeb;
+}
+
+.heading-mid {
+  padding-left: 35px;
+  margin-top: 30px;
+}
+
+.heading-mid h1 {
+  color: #2b2c30;
+}
+
+.heading-mid h2 {
+  color: #2b8aeb;
+}
+
+.banner {
+  width: 90%;
+  background: linear-gradient(to right, #fac118, #f1923f);
+  color: #111;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 38px auto; /* Center the banner */
+  border-radius: 80px;
+  height: 40px;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.offer-text, .timer, .offer-code {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+#countdown {
+  font-weight: bold;
+}
+
+.offer-code .code {
+  font-weight: bold;
+}
+
+.clock-icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  height: 30px;
+  width: auto;
+}
+
+.middle {
+  display: flex;
+}
+
+.order-review {
+  width: 100%;
+  margin: 20px 10px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 350px; /* Adjust height as needed */
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f9f9f9;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.discount {
+  color: #ff4d4d;
+}
+
+.remove-button {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #e2e6ea;
+}
+
+.subtotal {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #eee;
+  text-align: right;
+  font-size: 18px;
+  color: #333;
+}
+
+.subtotal span {
+  font-weight: bold;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 5px auto;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%; /* Adjust width */
+  margin: 4px auto; /* Center the card */
+}
+
+.satisfaction, .secure-shopping {
+  border: 1px solid #06ca57;
+  padding: 20px;
+  background-color: #eefef4;
+  margin: 20px auto; /* Center the section */
+  width: 90%; /* Adjust width */
+  border-radius: 8px;
+}
+
+.satisfaction .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.satisfaction .icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.satisfaction h3 {
+  color: #00c853;
+  margin: 0;
+}
+
+.satisfaction .pass-rate {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.why-choose {
+  border: 1px solid #ddd;
+  border-color: #c1c8d1;
+  box-shadow: none;
+  margin: 20px auto; /* Center the section */
+  width: 90%; /* Adjust width */
+  padding: 20px;
+}
+
+#pass-rate-para {
+  text-align: justify;
+}
+
+.why-choose h3 {
+  color: #333;
+}
+
+.why-choose .highlight {
+  color: #00c853;
+  font-weight: bold;
+}
+
+.why-choose ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0 0;
+  text-align: left;
+}
+
+.why-choose li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  color: #00c853;
+  font-weight: bold;
+}
+
+.why-choose li::before {
+  content: "✔";
+  margin-right: 10px;
+  color: #00c853;
+  font-weight: bold;
+}
+
+.secure-shopping .payment-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.secure-shopping .payment-icons img {
+  width: 40px;
+  height: auto;
+}
+
+#secure-shopping-para {
+  text-align: justify;
+}
+
+.mcafee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  margin-top: 20px;
+}
+
+.mcafee img {
+  width: 80px;
+  height: auto;
+  border: 1px solid #c1c8d1;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mcafee .sub {
+  display: flex;
+  gap: 10px;
+}
+
+.mcafee .sub p {
+  font-size: 10px;
+  color: #7a8ea5;
+}
+
+.mcafee .sub .date {
+  color: rgb(103, 16, 16);
+}
+
+.contact-us {
+  background-color: rgb(247, 247, 214);
+  border: 1px solid rgb(227, 162, 41);
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.contact-us .icon {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffc107;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  color: #fff;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us .content {
+  padding-top: 30px;
+}
+
+.contact-us h3, .contact-us p {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-us h3 {
+  margin-bottom: 10px;
+}
+
+.contact-us a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.contact-us a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: none;
+}
+
+/* Responsive adjustments for screen sizes max-width: 1091px */
+@media (max-width: 800px) {
+  .container1 {
+      width: 90%;
+  }
+
+  .banner {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+  }
+
+  .middle {
+      flex-direction: column;
+  }
+
+  .order-review, .satisfaction, .secure-shopping {
+      width: 100%;
+      margin: 20px auto;
+      padding: 20px;
+  }
+
+  .card {
+      width: 100%;
+      margin: 20px auto;
+  }
+
+  .heading-mid {
+      padding-left: 10px;
+      margin-top: 20px;
+  }
+
+  .satisfaction, .secure-shopping, .why-choose, .order-review {
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .satisfaction h3, .secure-shopping h3, .why-choose h3, .order-review h3 {
+      text-align: center;
+  }
+
+  .satisfaction .heading, .secure-shopping .payment-icons, .mcafee, .contact-us {
+      text-align: center;
+  }
+
+  .satisfaction .icon img, .secure-shopping .payment-icons img, .mcafee img {
+      width: 50px;
+      height: auto;
+  }
+
+  /* .contact-us .icon {
+      width: 10px;
+      height: 10px;
+      font-size: 1.5em;
+  } */
+
+  .banner-content{
+    flex-direction: column;
+  }
+
+  .banner{
+    width: 60%;
+    background: rgb(255, 216, 145);
+    color: #111;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 38px auto; /* Center the banner */
+    border-radius: 25px;
+    height: 100px;
+    border:2px solid orange;
+    font-weight: bolder;
+  }
+
+  .banner-content .offer-code{
+    background-color: rgb(241, 186, 85);
+    padding:5px 20px;
+    border-radius: 3px;
+  }
+}
+
+
+
+@media (max-width: 524px) {
+  .banner-content{
+    flex-direction: column;
+    
+  }
+
+  body{
+    font-size: 0.7rem;
+  }
+
+  .banner{
+    width: 98%;
+    background: rgb(255, 216, 145);
+    color: #111;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px; /* Center the banner */
+    border-radius: 25px;
+    height: 100px;
+    border:2px solid orange;
+    font-weight: bolder;
+  }
+
+  .banner-content .offer-code{
+    background-color: rgb(241, 186, 85);
+    padding:5px 20px;
+    border-radius: 3px;
+  }
+}
+
+
+@media(max-width:347px){
+  body{
+    font-size: 0.4rem;
+  }
+}
